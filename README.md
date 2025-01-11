@@ -35,7 +35,7 @@ Mask out the piece that I need:
 
 ![FWW Mask](1-image-editing/dune-height-fww-mask.png)
 
-And make a heightmap in that section:
+And crop out the heightmap to fit in that section:
 
 ![FWW Height](1-image-editing/dune-height-fww.png)
 
