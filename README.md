@@ -49,3 +49,15 @@ Just opening it directly in Cura is actually pretty controllable:
 
 But what I really need is mountains shaped to the territory, sloping down to the edges naturally.
 
+Turns out Acorn has a built-in function for that called "Generate Height Field From Mask" if I give it a white silhouette of the region:
+
+![Height Field From Mask](1-image-editing/dune-height-fww-height-field-from-mask.png)
+
+It also has a "Generate Clouds" function that gives me more spiky mountains (after all, Dune wouldn't have water erosion).
+Combining the two as a "Multiply" layer gets me:
+
+![Clouds heightmap](1-image-editing/dune-height-fww-clouds.png)
+
+Which looks pretty good as a render:
+
+![Cura Render](1-image-editing/screen-cura-clouds.png)
