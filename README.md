@@ -47,7 +47,21 @@ Just opening it directly in Cura is actually pretty controllable:
 
 ![Cura Render](1-image-editing/screen-cura.png)
 
-But what I really need is mountains shaped to the territory, sloping down to the edges naturally.
+But what I really need is mountains shaped to the territory, sloping down to the edges naturally.  And
+I need the mountains to look similar across the board, so I guess I need to pick a mountain range that
+I like and start sampling a bunch of areas around the region to trial-error them into place?
+
+## 1.5 A Side Tour Into Procedural Terrain Generation
+
+So, I'm thinking this might be easier to get done in code.  So I start diving into Minecraft and other game procedural terrain generation.
+Like with this wonderful read: https://www.redblobgames.com/maps/terrain-from-noise/
+
+It's got everything I need, just a mountain of code (pun intended) between here and a possible solution.  Then the bottom of the article
+mentions something that makes me thing again:
+> It bothers me somewhat that most of the code we game developers write for noise-based terrain generation
+> (including midpoint displacement) turns out to be the same as audio and image filters.
+
+## 2. Back Into Image Editing
 
 Turns out Acorn has a built-in function for that called "Generate Height Field From Mask" if I give it a white silhouette of the region:
 
